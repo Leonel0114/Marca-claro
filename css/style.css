@@ -1,0 +1,37 @@
+.logo{
+
+    max-height: 56px !important;
+    padding: 2px;
+    margin: auto;
+
+}
+
+.mycontainer{
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.searchnav{
+    width: 26% !important;
+    height: 100% !important;
+}
+
+.equis{
+    margin-left: 60% !important;
+}
+
+.square{
+width: 100%;
+}
+
+.grid-item { width: 350px; }
+.grid-item--width2 { width: 350px; }
+
+main {
+    padding-top: 24px;
+}
+
+.plox{
+    font-size: 24px;
+    text-align: center
+}

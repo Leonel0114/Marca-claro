@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Marca</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/materialize.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/materialize.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/mazonry.js"></script>
+
+</head>
+
+<body>
+    <nav class="nav-extended  white">
+        <div class="nav-wrapper mycontainer">
+            <a href="#" class="brand-logo center">
+                <img src="img/logo.png" alt="" class="logo">
+            </a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down valign-wrapper">
+
+                <li>
+                    <div class="input-field">
+                        <select class="icons">
+                            <option value="" data-icon="img/mexico.png" selected>México</option>
+                            <option value="" data-icon="img/spain.png" class="left">España</option>
+                            <option value="" data-icon="img/colombia.png" class="left">Colombia</option>
+                            <option value="" data-icon="img/argentina.png" class="left">Argentina</option>
+                            <option value="" data-icon="img/maps-and-flags.png" class="left">English</option>
+                        </select>
+                    </div>
+                </li>
+
+                <li>
+                    <a href="http://suscripcion.marca.com/ofertas/?cid=VENDIG36003&s_kw=cap_hed_continua" class="waves-effect waves-light btn red darken-4">Suscribete</a>
+                </li>
+
+                <li>
+                    <a href="#login" class="waves-effect waves-light white red-text text-darken-4 btn modal-trigger">IniciarSesion</a>
+                </li>
+
+                <li>
+
+                    <div class="modal" id="login">
+                        <h3 class="blue-text text-darken-2 center container">Login</h3>
+                        <div class="modal-content center">
+                            <form action="#">
+                                <div class="row container">
+                                    <div class="input-field col s12">
+                                        <input id="email" type="email" class="validate">
+                                        <label for="email">Email</label>
+                                    </div>
+                                </div>
+                                <div class="row container">
+                                    <div class=" input-field col s12">
+                                        <input type="password" id="password" class="validate">
+                                        <label for="password">Password</label>
+                                    </div>
+                                </div>
+                                <p>
+                                    <label>
+                                        <input type="checkbox" />
+                                        <span>Recordarme</span>
+                                    </label>
+                                </p>
+                            </form>
+
+                        </div>
+
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+
+
+    <!-- Segundo nav -->
+    <nav class="red darken-4 ">
+        <div class="nav-wrapper container ">
+            <a href="#" class="brand-logo right"></a>
+            <ul id="nav-mobile" class="left hide-on-med-and-down">
+                <li><a href="sass.html">Fútbol</a></li>
+                <li><a href="badges.html">Fútbol internacional</a></li>
+                <li><a href="collapsible.html">Motor</a></li>
+                <li><a href="collapsible.html">Otros deportes</a></li>
+                <li><a href="collapsible.html">Mexicanos</a></li>
+
+                <li><a href="collapsible.html">Resultados</a></li>
+                <li><a href="collapsible.html">Motor</a></li>
+                <li><a href="collapsible.html">Más +</a></li>
+
+        
+
+            </ul>
+
+
+        </div>
+    </nav>
+
+    <main class="container">
+        <div class="grid">
+
+            <div class="grid-item card">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator" src="img/pexels/ge.jpg">
+                </div>
+                <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4">Soccer<i class="material-icons right"></i></span>
+                    <p><a href="#">This is a link</a></p>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">Soccer<i class="material-icons right">close</i></span>
+                    <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                </div>
+            </div>
+
+            <div class="grid-item grid-item--width2 card ">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator" src="img/pexels/mo.jpg">
+                </div>
+                <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4">Old dead<i class="material-icons right"></i></span>
+                    <p><a href="#">This is a link</a></p>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">Old Dead<i class="material-icons right">close</i></span>
+                    <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                </div>
+            </div>
+
+            <div class="grid-item card">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator" src="img/pexels/motr.jpg">
+                </div>
+                <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4">Futbolito<i class="material-icons right"></i></span>
+                    <p><a href="#">This is a link</a></p>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">Futbolito<i class="material-icons right">close</i></span>
+                    <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                </div>
+            </div>
+
+
+            <div class="grid-item card">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator" src="img/pexels/rusian.jpg">
+                </div>
+                <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4">Rusia<i class="material-icons right"></i></span>
+                    <p><a href="#">This is a link</a></p>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">Rusia<i class="material-icons right">close</i></span>
+                    <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                </div>
+            </div>
+
+
+            <div class="grid-item card">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator" src="img/pexels/sport.jpg">
+                </div>
+                <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4">Barra<i class="material-icons right"></i></span>
+                    <p><a href="#">This is a link</a></p>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">Barra<i class="material-icons right">close</i></span>
+                    <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                </div>
+            </div>
+
+            <div class="grid-item card">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator" src="img/pexels/to.jpg">
+                </div>
+                <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4">Cambio<i class="material-icons right"></i></span>
+                    <p><a href="#">This is a link</a></p>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">Cambio<i class="material-icons right">close</i></span>
+                    <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                </div>
+            </div>
+
+            <div class="grid-item card">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator" src="img/pexels/va.jpg">
+                </div>
+                <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4">Soccer Field<i class="material-icons right"></i></span>
+                    <p><a href="#">This is a link</a></p>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">Soccer Field<i class="material-icons right">close</i></span>
+                    <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <br><br><br>
+    <!-- Segundo round -->
+    <nav class="red darken-4 ">
+        <div class="nav-wrapper container ">
+            <a href="#" class="brand-logo "></a>
+            <ul id="nav-mobile" class="left hide-on-med-and-down">
+                <li><a href="#" class="plox">Liga de futbol Mexicano MX</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <br><br>
+    <div class="row container ">
+        <div class="card col s6">
+            <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="img/xxxx.jpg">
+            </div>
+            <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Muere el tuca Ferreti<i class="material-icons right"></i></span>
+                <p><a href="#">This is a link</a></p>
+            </div>
+            <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Muere el tuca<i class="material-icons right">close</i></span>
+                <p>Here is some more information about this product that is only revealed once clicked on.</p>
+            </div>
+        </div>
+
+        <div class="slider col s6">
+            <ul class="slides">
+                <li>
+                    <img src="img/pexels/to.jpg"> <!-- random image -->
+                    <div class="caption center-align">
+                        <h3>The sport we love!</h3>
+                        <h5 class="light grey-text text-lighten-3">Hell yeah!.</h5>
+                    </div>
+                </li>
+                <li>
+                    <img src="img/pexels/mo.jpg"> <!-- random image -->
+                    <div class="caption left-align">
+                        <h3>World cup</h3>
+                        <h5 class="light grey-text text-lighten-3">for Espn</h5>
+                    </div>
+                </li>
+                <li>
+                    <img src="img/pexels/sa.jpg"> <!-- random image -->
+                    <div class="caption right-align">
+                        <h3>Easy afn</h3>
+                        <h5 class="light grey-text text-lighten-3">brand new ball</h5>
+                    </div>
+                </li>
+                <li>
+                    <img src="img/pexels/ort.jpg"> <!-- random image -->
+                    <div class="caption center-align">
+                        <h3>Volcanes de juvilo</h3>
+                        <h5 class="light grey-text text-lighten-3">UDC</h5>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+
+
+    </div>
+
+    <!-- 
+Aqui comeinza el footer -->
+
+    <footer class="page-footer grey darken-2">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Marca Claro</h5>
+                    <p class="grey-text text-lighten-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio assumenda temporibus maxime veritatis quas molestiae mollitia enim impedit fugit.</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Links</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="#!">Facebook</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Twitter</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Instagram</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Claro</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright  grey darken-3">
+            <div class="container">
+                © 2019 Copyright Text
+                <a class="grey-text text-lighten-4 right" href="#!">Reload</a>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+    <script>
+        /* Este es el dropdown de lenguajes liga mx.. y Demas */
+        document.addEventListener('DOMContentLoaded', function () {
+            var elems = document.querySelectorAll('select');
+            var instances = M.FormSelect.init(elems, {});
+        });
+        /* Aqui va el bendito modal,, para el loggin */
+        document.addEventListener('DOMContentLoaded', function () {
+            var elems = document.querySelectorAll('.modal');
+            var instances = M.Modal.init(elems, {});
+        });
+
+        /*  AQui va el caliente */
+        document.addEventListener('DOMContentLoaded', function () {
+            var elems = document.querySelectorAll('.materialboxed');
+            var instances = M.Materialbox.init(elems, {});
+        });
+        /*   Aqui va el mansonry sht */
+        $('.grid').masonry({
+            itemSelector: '.grid-item',
+            columnWidth: 200
+        });
+        /*  Aqui viene el inciador del carrusel */
+        document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.slider');
+    var instances = M.Slider.init(elems, {});
+  });
+    </script>
+</body>
+
+</html>
